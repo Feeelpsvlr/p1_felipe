@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img.desenvolvedor-img {
+    width: 200px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da altura */
+    border-radius: 50%; /* Deixa a imagem circular, se desejado */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+main img.img-receita {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Limita a altura da imagem */
+    display: block;
+    margin-bottom: 20px;
+}
+img {
+    width: 100%; /* As imagens ocuparão 100% do contêiner pai */
+    max-width: 300px; /* Limite máximo de largura para evitar que as imagens fiquem muito grandes */
+    height: auto; /* Mantém a proporção original das imagens */
+    display: block;
+    margin: 20px auto; /* Centraliza todas as imagens */
+}
+
+/* Estilo específico para a logo */
+img.logo {
+    width: 150px; /* Define um tamanho menor para a logo */
+    height: auto; /* Mantém a proporção da logo */
+    display: block;
+    margin: 0 auto; /* Centraliza a logo */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    overflow-y: auto; /* Permite que o conteúdo do main tenha scroll */
+    height: calc(100vh - 100px); /* Ajusta a altura do main para não sobrepor o footer */
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
